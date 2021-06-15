@@ -1,0 +1,18 @@
+uuid: c8da1bbf-9140-44bc-bb05-7cf13d85819a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredients
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.ingredients
+target_entity_type_id: taxonomy_term
+target_bundle: ingredients
+default_langcode: site_default
+language_alterable: false

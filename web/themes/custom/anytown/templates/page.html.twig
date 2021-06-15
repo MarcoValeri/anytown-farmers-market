@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <header class="header">
+            {{ page.header }}
+            <nav class="menu">
+                {{ page.menu }}
+            </nav>
+        </header>
+        <main class="main">
+            <div class="content">
+                {{ page.content }}
+            </div>
+            {% if page.sidebar %}
+            <div class="sidebar">
+
+            </div>
+            {% endif %}
+        </main>
+        <footer>
+            {{ page.footer }}
+            This is my first Drupal website
+        </footer>
+    </body>
+</html>

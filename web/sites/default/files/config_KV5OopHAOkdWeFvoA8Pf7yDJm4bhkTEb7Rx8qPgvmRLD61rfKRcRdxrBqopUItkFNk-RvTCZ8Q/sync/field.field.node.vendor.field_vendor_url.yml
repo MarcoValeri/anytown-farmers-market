@@ -1,0 +1,23 @@
+uuid: ea6edb36-1413-43ba-a24c-748ec489fdbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_url
+    - node.type.vendor
+  module:
+    - link
+id: node.vendor.field_vendor_url
+field_name: field_vendor_url
+entity_type: node
+bundle: vendor
+label: 'Vendor URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

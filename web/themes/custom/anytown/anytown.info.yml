@@ -1,0 +1,17 @@
+name: "Anytown"
+type: theme
+description: "Anytown theme"
+core_version_requirement: ^9
+base theme: stable
+
+# Libraries
+libraries:
+  - anytown/global-styling
+
+# Regions
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

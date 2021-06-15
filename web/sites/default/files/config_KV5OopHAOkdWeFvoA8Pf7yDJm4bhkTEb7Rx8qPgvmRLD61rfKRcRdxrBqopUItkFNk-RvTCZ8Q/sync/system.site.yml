@@ -1,0 +1,15 @@
+uuid: 7beab28c-cee5-4046-83d4-296011c3d32d
+name: 'Anytown Farmers Market'
+mail: marcovaleri@hotmail.it
+slogan: 'Farm Fresh Food'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''
