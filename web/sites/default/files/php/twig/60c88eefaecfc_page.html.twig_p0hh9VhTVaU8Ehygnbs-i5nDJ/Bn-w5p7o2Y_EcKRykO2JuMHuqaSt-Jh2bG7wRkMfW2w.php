@@ -62,17 +62,10 @@ class __TwigTemplate_cf40f6c62822f52064d6d81322f058801ca4d083d3df477f4200a4c9904
             <div class=\"content\">
                 <h4>This is the content section</h4>
             </div>
-            ";
-        // line 21
-        if (twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "sidebar", [], "any", false, false, true, 21)) {
-            // line 22
-            echo "            <div class=\"sidebar\">
+            <div class=\"sidebar\">
                 <h4>This is the sidebar</h4>
             </div>
-            ";
-        }
-        // line 26
-        echo "        </main>
+        </main>
         <footer>
             <h4>This is the footer section</h4>
         </footer>
@@ -92,7 +85,7 @@ class __TwigTemplate_cf40f6c62822f52064d6d81322f058801ca4d083d3df477f4200a4c9904
 
     public function getDebugInfo()
     {
-        return array (  75 => 26,  69 => 22,  67 => 21,  57 => 14,  49 => 9,  39 => 1,);
+        return array (  57 => 14,  49 => 9,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -102,13 +95,13 @@ class __TwigTemplate_cf40f6c62822f52064d6d81322f058801ca4d083d3df477f4200a4c9904
     
     public function checkSecurity()
     {
-        static $tags = array("if" => 21);
+        static $tags = array();
         static $filters = array("escape" => 9);
         static $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['if'],
+                [],
                 ['escape'],
                 []
             );
