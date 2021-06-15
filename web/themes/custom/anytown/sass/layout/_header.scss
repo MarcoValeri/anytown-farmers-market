@@ -1,0 +1,15 @@
+.header {
+    height: 50vh;
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #ff0000;
+
+    .header-title {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

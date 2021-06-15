@@ -7,23 +7,25 @@
     <body>
         <header class="header">
             {{ page.header }}
+            <section class="header-title">
+                <h1>Anytown Farmers Market</h1>
+            </section>
             <nav class="menu">
                 {{ page.menu }}
             </nav>
         </header>
         <main class="main">
             <div class="content">
-                {{ page.content }}
+                <h4>This is the content section</h4>
             </div>
             {% if page.sidebar %}
             <div class="sidebar">
-
+                <h4>This is the sidebar</h4>
             </div>
             {% endif %}
         </main>
         <footer>
-            {{ page.footer }}
-            This is my first Drupal website
+            <h4>This is the footer section</h4>
         </footer>
     </body>
 </html>
