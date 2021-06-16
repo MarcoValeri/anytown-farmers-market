@@ -3,6 +3,7 @@ type: theme
 description: "Anytown theme"
 core_version_requirement: ^9
 base theme: stable
+screenshot: images/screenshot.png
 
 # Libraries
 libraries:

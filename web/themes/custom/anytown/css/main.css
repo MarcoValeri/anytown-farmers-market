@@ -20,6 +20,8 @@
         color: #000; }
 
 .main {
+  height: auto;
+  min-height: 50vh;
   margin-top: 1rem;
   padding: 1rem;
   display: grid;
@@ -37,6 +39,8 @@
     border: 1px solid #ff0000; }
 
 footer {
+  height: auto;
+  min-height: 30vh;
   margin-top: 1rem;
   padding: 1rem;
   border: 1px solid #ff0000; }
